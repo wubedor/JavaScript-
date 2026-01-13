@@ -1,23 +1,26 @@
-let pupil ={
-    name:'Anum Emmanuel',
-    Email: "anumemma24@gmail.com",
-    age: 70,
+class Human{
+    constructor(name,age){
+      this.name= name;
+      this.age= age; 
+    }
+
+    talk(){
+        console.log(this.name + ' speak');
+    }
 }
 
-console.log(pupil)
-
-let inport = {
-    package: "Shoe",
-    Number: 33567886,
-    location: 'Ashiaman',
+class Man extends Human {
+    constructor(name,age){
+        super(name,age);
+    }
+    mouth (){
+      console.log(this.age + " year old " + this.name + ' speaks like a historian');
+    }
 }
 
-console.log(inport)
+const micheal = new Man('Micheal',27);
 
-let package = {
-    Name: "Akosua Mary",
-    call: +23324-364-7409,
-    Amount: 'GH₡ 60',
-    Location: "Osu",
-}
-console.log(package)
+
+micheal.talk();
+
+micheal.mouth();
