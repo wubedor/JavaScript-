@@ -9,10 +9,20 @@
 
     <img src="goodnews.jpg" id="image" alt=""/>
     
+    <button onclick="ClickMe()">Order Here</button>
+    
 
     <script>
-        var el = document. getElementById("image");
-        el.src = "good.jpg";
+
+      let image = document.getElementById('image')
+      image.src='good.jpg'
+      image.style.height='400px'
+
+      let header= document.getElementById('header')
+
+      function ClickMe(){
+      alert('Ordered');
+}
     </script>
     
 </body>
