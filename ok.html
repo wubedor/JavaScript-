@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="ok.css">
+</head>
+<body>
+
+<div id="game">
+    <div id="hot">Word Guess Game</div>
+    <div id="cold"> Programming Words</div>
+    <div id="word"></div>
+    <div id="message"></div>
+    <input type="text" id="letterInput" maxlength="1" autofocus />
+    <button onclick="guessLetter()">Guess</button>
+    <div id="score">Attempts left: <span id="attempts">5</span></div>
+    <audio id="successSound" src="success.mp3"></audio>
+    <audio id="failSound" src="fail.mp3"></audio>
+</div>
+
+<script src="ok.js"></script>
+
+</body>
+</html>

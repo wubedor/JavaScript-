@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(137, 21, 21);
+    border: none;
+    border-radius: 10px;
+}
+#game {
+    text-align: center;
+    margin-top: 200px;
+}
+#word {
+    font-size: 2em;
+    letter-spacing: 20px;
+    margin-bottom: 18px;
+}
+#message {
+    font-size: 1.2em;
+    color: rgb(245, 235, 235);
+}
+#cold {
+    font-size: 30px;
+}
+#score {
+    font-size: 2.0em;
+    margin-top: 20px;
+}
+
+#hot {
+    font-size: 60px;
+}
+
+#Letterinput {
+ font-size: larger;
+}
+
+
+    .green-flash {
+        background-color: #4CAF50 !important;
+        animation: greenFlash 1s ease-in-out;
+    }
+
+    .red-flash {
+        background-color: #f44336 !important;
+        animation: redFlash 1s ease-in-out;
+    }
+
+    @keyframes greenFlash {
+        0% { background-color: white; }
+        50% { background-color: #4CAF50; }
+        100% { background-color: white; }
+    }
+
+    @keyframes redFlash {
+        0% { background-color: white; }
+        50% { background-color: #f44336; }
+        100% { background-color: white; }
+    }
+
+
