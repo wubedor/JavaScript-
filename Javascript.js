@@ -27,13 +27,13 @@ let mother= true
 let father= true
 
 //document.write
-document.write(name)
-document.write(power)
-document.write(year)
-document.write(height)
-document.write(course)
-document.write(school)
-document.write(church)
-document.write(homeTown)
-document.write(age)
-document.write(numberOfsiblings)
+document.write(name/power)
+document.write(power+child)
+document.write(year*houseNo)
+document.write(height-weight)
+document.write(course%temperature)
+document.write(school/father)
+document.write(church*result)
+document.write(homeTown+streetNo)
+document.write(age-baby)
+document.write(numberOfsiblings%humidity)
